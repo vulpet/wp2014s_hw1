@@ -1,0 +1,156 @@
+body{
+  background-image: url(http://subtlepatterns.com/patterns/green_cup.png) ; background-position: initial initial; background-repeat: initial initial;
+  font-size:16px;
+  font-family:font-family: Arial,MingLiU,sans-serif;
+  text-align:center;
+}
+
+.wrapper_center{
+   width:800px;
+   padding: 1em;
+   margin: 0 auto;
+  <!-- text-align:left;-->
+   border-radius:0.5em;
+   box-shadow: rgb(189, 189, 189) 0px 10px 10px 10px;
+   background-image: url(http://subtlepatterns.com/patterns/squared_metal.png); 
+   background-position: initial initial;  
+   background-repeat: initial initial;
+   box-sizing:border-box;
+}
+
+
+
+a,ul,li{
+  text-decoration: none;
+  list-style: none;
+  display:block;
+}
+
+a,ul,li:active{
+  color:#A23400;
+}
+
+#topmenuRight{
+  float:right;
+}
+
+header{
+  opacity:0.5;
+  border-radius:0.8em;
+  background-color:#95CACA;
+  
+}
+
+.header_nav{
+  clear:both;
+  width:800px;
+}
+
+.header_nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+.header_nav  li{
+  float:left;
+  width:20%;
+  height:25px;
+  border-bottom:1px solid;
+  background-color: #FFA042;
+  text-align:center;
+}
+
+
+
+.header_nav a:hover{
+  background-color: #EA7500;
+}
+
+h1{
+  font-size: 2.5 em;
+  color:#272727;
+  text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+  font-family: Arial,MingLiU,fantasy;
+}
+
+h1 span{
+  font-size: 1.5 em;
+  font-family: Arial,MingLiU,fantasy;
+  
+}
+
+h2{
+  font: italic bold 20px "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-bottom:3px;
+  border-bottom:1px solid;
+  border-bottom-color: #000;
+}
+
+h3{
+ <!-- text-decoration:underline;-->
+  padding-bottom:3px;
+  border-bottom:1px solid;
+  border-bottom-color: #000;
+}
+
+.centerlogo{
+  text-align:center;
+  text-shadow:  8px 15px 8px #133015;
+}
+
+<!--.center_link{
+  float:left;
+  
+}
+-->
+aside {
+  float:left;
+  width: 150px;
+  <!--height: 50px;-->
+  text-align:center;
+  margin:;
+  background-color:;
+  border: 1px solid green;
+}
+
+aside ul{
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+aside li{
+  font-size:20px;
+  display:block;
+  
+}
+aside a:hover{
+  background-color:#FFDAC8;
+}
+
+.content{
+
+  float:right;
+  width:600px;
+  background-color:;
+  display:block;
+  
+}
+
+.content .news{
+  text-align:left;  
+}
+
+.content .news li{
+  padding:0.3em;
+}
+
+
+.content  li:nth-child(even){
+  background-color:rgba(255,255,255,0.5);
+}
+
+footer{
+  clear:both;
+  width:100%;  
+  background-color:#A6A6D2;
+}
